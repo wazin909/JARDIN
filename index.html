@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jardín Polinizador</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f8e9;
+    color: #29452d;
+}
+
+header {
+    background: #286b42;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+nav {
+    background: #194d30;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffe082;
+}
+
+section {
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    color: #287345;
+    text-align: center;
+}
+
+.contenedor {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #0002;
+}
+
+img {
+    width: 100%;
+    max-width: 450px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin: 12px auto;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.galeria img {
+    height: 190px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 15px;
+}
+
+footer {
+    background: #194d30;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌻 Jardín Polinizador 🐝</h1>
+    <p>Un espacio para proteger la naturaleza y la biodiversidad</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#importancia">Importancia</a>
+    <a href="#plantas">Plantas</a>
+    <a href="#galeria">Galería</a>
+    <a href="#podcast">Podcast</a>
+    <a href="#proyecto">Proyecto</a>
+</nav>
+
+<section id="inicio">
+    <div class="contenedor">
+        <h2>¿Qué es un jardín polinizador?</h2>
+        <p>
+        Es un espacio donde se cultivan plantas y flores que
+        proporcionan alimento y refugio a animales polinizadores
+        como abejas, mariposas, colibríes y otros insectos.
+        </p>
+
+        <img src="1.jpeg"
+        alt="Jardín polinizador">
+    </div>
+</section>
+
+<section id="importancia">
+    <div class="contenedor">
+        <h2>🌎 ¿Por qué es importante?</h2>
+        <ul>
+            <li>Ayuda a conservar la biodiversidad.</li>
+            <li>Proporciona alimento a los polinizadores.</li>
+            <li>Favorece la reproducción de las plantas.</li>
+            <li>Contribuye al equilibrio de los ecosistemas.</li>
+        </ul>
+
+        <img src="5.jpeg"
+        alt="Abejas polinizando flores">
+    </div>
+</section>
+
+<section id="plantas">
+    <div class="contenedor">
+        <h2>🌺 Plantas recomendadas</h2>
+
+        <p>Algunas plantas que podemos utilizar son:</p>
+
+        <ul>
+            <li>Lavanda.</li>
+            <li>Girasol.</li>
+            <li>Bugambilia.</li>
+            <li>Romero.</li>
+            <li>Salvia.</li>
+            <li>Cempasúchil.</li>
+        </ul>
+
+        <img src="4.jpeg"
+        alt="Flores para polinizadores">
+    </div>
+</section>
+
+<section id="galeria">
+    <div class="contenedor">
+        <h2>📸 Galería de imágenes</h2>
+        <p>Conoce algunos ejemplos de jardines y polinizadores.</p>
+
+        <div class="galeria">
+            <img src="3.jpeg" alt="Fotografía 1">
+            <img src="5.jpeg" alt="Fotografía 2">
+            <img src="8.jpeg" alt="Fotografía 3">
+            <img src="9.jpeg" alt="Fotografía 4">
+        </div>
+    </div>
+</section>
+
+<section id="podcast">
+    <div class="contenedor">
+        <h2>🎙️ Nuestro Podcast</h2>
+
+        <p>
+        Escucha nuestro podcast y aprende más sobre la
+        importancia de cuidar a los polinizadores.
+        </p>
+
+        <audio controls>
+            <source src="audio/podcast.mp3" type="audio/mpeg">
+            Tu navegador no puede reproducir este audio.
+        </audio>
+
+        <p>Podcast: La importancia de los jardines polinizadores.</p>
+    </div>
+</section>
+
+<section id="proyecto">
+    <div class="contenedor">
+        <h2>🌻 Nuestro jardín polinizador Cecyte Tepeyanco 06</h2>
+
+        <p>
+        Este espacio está dedicado a mostrar las actividades,
+        avances y fotografías de nuestro proyecto escolar.
+        </p>
+
+        <div class="galeria">
+            <img src="7.jpeg" alt="Proyecto 1">
+            <img src="5.jpeg" alt="Proyecto 2">
+            <img src="8.jpeg" alt="Proyecto 3">
+            <img src="6.jpeg" alt="Proyecto 4">
+        </div>
+    </div>
+</section>
+
+<footer>
+    <h3>🌱 Cuidemos a nuestros polinizadores 🐝</h3>
+    <p>Cecyte Tepeyanco 06</p>
+    <p>La naturaleza necesita de todos nosotros.</p>
+</footer>
+
+</body>
+</html>
